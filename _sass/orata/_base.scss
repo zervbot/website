@@ -1,7 +1,29 @@
 html,
 body {
   color: $black;
-  background: $red
+  background: $red;
   margin: 0;
   padding: 0;
+}
+
+footer {
+  font-family: $fira-1;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: $red;
+  height: 60px;
+  width: 100%;
+
+  .footer_top {
+    margin: 0 auto;
+  }
+
+  .footer_btm {
+    margin: 0 auto;
+  }
+
+  p {
+    color: $black;
+    font-size: .8rem;
+  }
 }

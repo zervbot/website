@@ -1,3 +1,9 @@
 ---
 layout: default
 ---
+
+<div class="blogs"
+    {% for post in paginator.posts %}
+        {% include catalogue_item.html %}
+    {% endfor %}
+</div>

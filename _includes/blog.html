@@ -1,0 +1,16 @@
+<a href="{{ post.url | prepend: site.baseurl }}" class="blog-item">
+        <div>
+                <time datetime="{{ post.date }}" class="blog-time">{{ post.date | date: "%B %d, %Y" }}</time>
+                <h1 class="blog-title">{{ post.title }}</h1>
+                <div class="blog-line"></div>
+
+                <p>
+                        {% if post.excerpt_separator %}
+                        {{ post.excerpt | strip_html }}
+                        {% else %}
+                        {{ post.content | strip_html | truncatewords: 30 }}
+                        {% endif %}
+                </p>
+
+        </div>
+</a>
