@@ -1,16 +1,16 @@
 html,
 body {
-  color: $black;
-  background: $red;
+  #color: $black;
+  background: #ff6666;
   margin: 0;
   padding: 0;
 }
 
 footer {
-  font-family: $fira-1;
+  #font-family: $fira-1;
   padding: 2rem 0;
   text-align: center;
-  background-color: $red;
+  background-color: #FF6666;
   height: 60px;
   width: 100%;
 
@@ -23,7 +23,7 @@ footer {
   }
 
   p {
-    color: $black;
+    color: #FF6666;
     font-size: .8rem;
   }
 }
