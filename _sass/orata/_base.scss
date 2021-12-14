@@ -6,6 +6,11 @@ body {
   padding: 0;
 }
 
+nav {
+  box-shadow: 0 2px 2px -2px $shadow-color;
+  overflow: auto;
+}
+
 footer {
   //font-family: $fira-1;
   padding: 2rem 0;
