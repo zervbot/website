@@ -1,11 +1,12 @@
 html,
 body {
-  background-color: $primary;
+  background-color: $black;
   margin: 0;
   padding: 0;
 }
 
 nav {
+  background-color: $black
   box-shadow: 0 2px 2px -2px $danger;
   overflow: auto;
   
@@ -31,9 +32,9 @@ nav {
 
 footer {
   font-family: $fira-2;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
-  background-color: $secondary;
+  background-color: $black;
   height: 60px;
   width: 100%;
 
@@ -46,8 +47,9 @@ footer {
   }
 
   p {
-    color: $black;
+    color: $white;
+    line-height: 1px;
     font-size: .8rem;
-    line-height: 8px;
+    font-weight: bold;
   }
 }
