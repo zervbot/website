@@ -8,6 +8,24 @@ body {
 nav {
   box-shadow: 0 2px 2px -2px $danger;
   overflow: auto;
+  
+  &-container {
+    margin: 1rem auto;
+    position: relative;
+    text-align: center;
+  }
+
+  &-title {
+    color: $white;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0;
+    padding-right: .2rem;
+
+    &:hover,
+    &:focus {
+      opacity: .6;
+    }
 }
 
 footer {
