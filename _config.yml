@@ -1,5 +1,5 @@
 title:              "ZERVWAVE INDUSTRIES"
-keyword:            "zerv,zervwave,zervwave industries,robot,animator,illustration,indie game,game,pixel art,pixel game"
+keywords:           "zerv,zervwave,zervwave industries,robot,animator,illustration,indie game,game,pixel art,pixel game"
 description:        "Robot Engineer,Animator and Indie Game Developer."
 name:               "Harvey Wu (zervwave)"
 url:                "https://zervwave.com"
@@ -14,12 +14,12 @@ github_username:    zervwave
 twitter_username:   zervwave
 bilibili_username:  zervwave
 
-markdown: kramdown
+markdown:           kramdown
 
 plugins:
   - jekyll-seo-tag
   
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir:         _sass
+  style:            compressed
