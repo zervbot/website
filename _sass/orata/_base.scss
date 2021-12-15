@@ -30,6 +30,15 @@ nav {
   }
 }
 
+ul{
+  text-align:center;
+  padding: 0.5rem 0;
+}
+
+li{
+  display:inline;
+}
+
 footer {
   font-family: $fira-2;
   padding: 1rem 0;
@@ -38,11 +47,11 @@ footer {
   height: 60px;
   width: 100%;
 
-  .footer_top {
+  &-top {
     margin: 0 auto;
   }
 
-  .footer_btm {
+  &-btm {
     margin: 0 auto;
   }
 
