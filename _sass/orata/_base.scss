@@ -12,7 +12,7 @@ a {
 span {
   color: $white;
   line-height: 1px;
-  font-size: .8rem;
+  font-size: .7rem;
   font-weight: bold;
 }
 
@@ -66,6 +66,9 @@ footer {
 
   &-top {
     margin: 0 auto;
+    color: $white;
+    font-size: .7rem;
+    font-weight: bold;
   }
 
   &-btm {
