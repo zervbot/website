@@ -51,27 +51,33 @@ li{
 }
 
 svg{
-  width: 30px;
   fill: currentColor;
   color: $white;
   padding: 8px;
+  width: 30px;
 }
 
 footer {
-  font-family: $fira-2;
-  padding: 1rem 0;
-  text-align: center;
   background-color: $black;
+  text-align: center;
+  font-family: $fira;
+  font-weight: bold;
+  padding: 1rem 0;
   width: 100%;
 
   &-top {
     margin: 0 auto;
     color: $white;
     font-size: .7rem;
-    font-weight: bold;
   }
 
   &-btm {
     margin: 0 auto;
   }
+}
+
+.tips {
+  font-family: $fira;
+  font-weight: bold;
+  text-align: center;
 }
