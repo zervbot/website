@@ -20,6 +20,8 @@ nav {
   background-color: $black;
   box-shadow: 0 2px 2px -2px $grey;
   overflow: auto;
+  height: 55px;
+  color: $white;
   
   &-container {
     margin: 1rem auto;
@@ -28,7 +30,6 @@ nav {
   }
 
   &-title {
-    color: $white;
     font-size: 30px;
     display: inline-block;
     margin: 0;
