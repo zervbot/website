@@ -1,5 +1,5 @@
 <div>
-{% for post in posts %}
+{% for post in site.posts %}
 <a href="{{ post.url | prepend: site.baseurl }}" class="posts-item">
     <div>
         <time datetime="{{ post.date }}" class="posts-time">{{ post.date | date: "%B %d, %Y" }}</time>
