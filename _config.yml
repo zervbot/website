@@ -8,6 +8,8 @@ author:
   name:             "Harvey Wu (zervwave)"
   email:            "harveywu@outlook.it"
 
+permalink:          /:title/
+
 # Social Link
 steam_username:     zervwave
 github_username:    zervwave
@@ -23,3 +25,4 @@ plugins:
 sass:
   sass_dir:         _sass
   style:            compressed
+
