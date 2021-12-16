@@ -5,6 +5,17 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+span {
+  color: $white;
+  line-height: 1px;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
 nav {
   background-color: $black;
   box-shadow: 0 2px 2px -2px $danger;
@@ -59,12 +70,5 @@ footer {
 
   &-btm {
     margin: 0 auto;
-    
-    span {
-      color: $white;
-      line-height: 1px;
-      font-size: .8rem;
-      font-weight: bold;
-    }
   }
 }
