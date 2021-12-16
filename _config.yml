@@ -4,11 +4,12 @@ description:        "Robot Engineer,Animator and Indie Game Developer."
 name:               "Harvey Wu (zervwave)"
 url:                "https://zervwave.com"
 locale:             en_US
+
 author:
   name:             "Harvey Wu (zervwave)"
   email:            "harveywu@outlook.it"
 
-permalink:          /:title/
+permalink:          pretty
 
 # Social Link
 steam_username:     zervwave
