@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: $black;
+  background-color: $white;
   margin: 0;
   padding: 0;
 }
@@ -12,14 +12,16 @@ a {
 span {
   color: $white;
   line-height: 1px;
-  font-size: .8rem;
+  font-size: .7rem;
   font-weight: bold;
 }
 
 nav {
   background-color: $black;
-  box-shadow: 0 2px 2px -2px $danger;
+  box-shadow: 0 2px 2px -2px $grey;
   overflow: auto;
+  height: 55px;
+  color: $white;
   
   &-container {
     margin: 1rem auto;
@@ -28,7 +30,6 @@ nav {
   }
 
   &-title {
-    color: $white;
     font-size: 30px;
     display: inline-block;
     margin: 0;
@@ -43,7 +44,7 @@ nav {
 
 ul{
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 0.26rem 0;
 }
 
 li{
@@ -51,24 +52,33 @@ li{
 }
 
 svg{
-  width: 30px;
   fill: currentColor;
   color: $white;
   padding: 8px;
+  width: 26px;
 }
 
 footer {
-  font-family: $fira-2;
-  padding: 1rem 0;
-  text-align: center;
   background-color: $black;
+  text-align: center;
+  font-family: $fira;
+  font-weight: bold;
+  padding: 1rem 0;
   width: 100%;
 
   &-top {
     margin: 0 auto;
+    color: $white;
+    font-size: .7rem;
   }
 
   &-btm {
     margin: 0 auto;
   }
+}
+
+.tips {
+  font-family: $fira;
+  font-weight: bold;
+  text-align: center;
 }
