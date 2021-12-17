@@ -68,17 +68,19 @@ svg{
   &-container {
     width: fit-content;
     text-align: center;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     padding: 28px 0;
     display: flex;
+    margin: 0 auto;
   }
   &-items {
     margin: 10px;
     flex-direction: row;
   }
   &-bg {
-    width: 200px;
-    height:200px;
+    width: 250px;
+    height:150px;
   }
 }
 
