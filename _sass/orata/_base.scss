@@ -63,7 +63,7 @@ svg{
 }
 
 .classify {
-  background-image: linear-gradient(-45deg, $primary, $secondary, $tertiary); 
+  background: linear-gradient(-45deg, $primary, $secondary, $tertiary,$secondary) repeat scroll 0% 0% / 400% 400%;
   animation: bg-color 10s infinite;
   -webkit-animation: bg-color 10s infinite;
   
@@ -117,13 +117,17 @@ footer {
 }
 
 @-webkit-keyframes bg-color {
-  0% { background: linear-gradient(-45deg,  $primary, $secondary, $tertiary); }
-  50% { background: linear-gradient(-45deg, $secondary, $tertiary, $primary); }
-  100% { background: linear-gradient(-45deg, $tertiary, $primary, $secondary); }
+  0% { background-position: 0% 25%; }
+  25% { background-position: 0% 50%; }
+  50% { background-position: 0% 75%; }
+  75% { background-position: 0% 100%; }
+  100% { background-position: 0% 25%; }
  }
 
 @keyframes bg-color {
-  0% { background: linear-gradient(-45deg, $primary, $secondary, $tertiary); }
-  50% { background: linear-gradient(-45deg, $secondary, $tertiary, $primary); }
-  100% { background: linear-gradient(-45deg, $tertiary, $primary, $secondary); }
+  0% { background-position: 0% 25%; }
+  25% { background-position: 0% 50%; }
+  50% { background-position: 0% 75%; }
+  75% { background-position: 0% 100%; }
+  100% { background-position: 0% 25%; }
  }
