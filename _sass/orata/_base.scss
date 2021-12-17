@@ -58,6 +58,21 @@ svg{
   width: 26px;
 }
 
+.classify {
+  background-image: linear-gradient(to right, $primary, $secondary, $tertiary); 
+  
+  &-container {
+    padding: 28px 0;
+  }
+  &-items {
+    margin: 10px;
+  }
+  &-bg {
+    width: 200px;
+    height:200px;
+  }
+}
+
 footer {
   background-color: $black;
   text-align: center;
