@@ -56,6 +56,25 @@ svg{
   color: $white;
   padding: 8px;
   width: 26px;
+  
+  &:hover {
+    color: $primary;
+  }
+}
+
+.classify {
+  background-image: linear-gradient(to right, $primary, $secondary, $tertiary); 
+  
+  &-container {
+    padding: 28px 0;
+  }
+  &-items {
+    margin: 10px;
+  }
+  &-bg {
+    width: 200px;
+    height:200px;
+  }
 }
 
 footer {
