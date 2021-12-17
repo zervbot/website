@@ -1,8 +1,9 @@
-    <ul class="social-ul">
-      {% for social in site.data.social %}
-      <li class="social-li>
+<ul class="social-ul">
+    {% for social in site.data.social %}
+    <li class="social-li>
         <a rel="me" href="{{social.url}}">
             {{social.svg}}
         </a>  
-      </li>
-    </ul>
+    </li>
+    {% endfor %}
+</ul>
