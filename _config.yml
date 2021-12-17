@@ -1,9 +1,10 @@
-title:              "ZERVWAVE DYNAMICS INDUSTRIES"
+title:              "Zervwave Dynamics Industries"
 keywords:           "zerv,zervwave,zervwave industries,robot,animator,illustration,indie game,game,pixel art,pixel game"
-description:        "Animation, Robot and Indie Game."
+description:        "Animation, Indie Game and Robot."
 name:               "Harvey Wu (zervwave)"
 url:                "https://zervwave.com"
 
+# Author Information
 author:
   name:             "Harvey Wu (zervwave)"
   email:            "harveywu@outlook.it"
@@ -11,10 +12,10 @@ author:
 permalink:          pretty
 
 # Social Link
-steam_username:     zervwave
-github_username:    zervwave
-twitter_username:   zervwave
-bilibili_username:  zervwave
+steam:              zervwave
+github:             zervwave
+twitter:            zervwave
+bilibili:           zervwave
 
 markdown:           kramdown
 
@@ -25,4 +26,3 @@ plugins:
 sass:
   sass_dir:         _sass
   style:            compressed
-
