@@ -66,10 +66,15 @@ svg{
   background-image: linear-gradient(to right, $primary, $secondary, $tertiary); 
   
   &-container {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
     padding: 28px 0;
+    display: flex;
   }
   &-items {
     margin: 10px;
+    flex-direction: row;
   }
   &-bg {
     width: 200px;
