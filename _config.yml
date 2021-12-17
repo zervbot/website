@@ -27,6 +27,12 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+menu:
+  - name: "HOME"
+    url: /
+  - name: "ABOUT"
+    url: /about
+
 classify:
   - id: "1"
     name: "Animation"
