@@ -1,7 +1,7 @@
 <div class="posts">
     <div class="posts-title">Latest Blogs</div>
     <div class="posts-container">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:5 %}
       <div class="posts-items">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </div>
