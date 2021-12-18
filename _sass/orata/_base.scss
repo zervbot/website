@@ -18,7 +18,6 @@ span {
 
 nav {
   background-color: $black;
-  box-shadow: 0 2px 2px -2px $grey;
   overflow: auto;
   height: 55px;
   color: $white;
@@ -55,6 +54,7 @@ svg{
 
 .classify {
   background: rgba(0, 0, 0, 0) linear-gradient(-45deg, $primary, $secondary, $tertiary,$secondary,$primary,) repeat scroll 0% 0% / 400% 400%;
+  box-shadow: inset 0px 15px 15px -15px $black, inset 0px -15px 15px -15px $black;
   animation: bg-color 10s infinite;
   -webkit-animation: bg-color 10s infinite;
   
