@@ -17,15 +17,18 @@ github:             zervwave
 twitter:            zervwave
 bilibili:           zervwave
 
+# Markdown
 markdown:           kramdown
 
-plugins:
-  - jekyll-seo-tag
-  
 # Assets
 sass:
   sass_dir:         _sass
   style:            compressed
+
+plakat:
+  url:              https://images2.alphacoders.com/884/thumb-1920-884331.jpg
+  location:         top
+  slogan:           Hi there !
 
 menu:
   - name: "HOME"
@@ -48,3 +51,6 @@ classify:
     name: "Robot"
     url: /robot
     bg: "classify-image.png"
+
+plugins:
+  - jekyll-seo-tag
