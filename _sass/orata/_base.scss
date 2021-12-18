@@ -63,22 +63,32 @@ svg{
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 60px 0;
     display: flex;
     flex-flow: wrap;
     margin: 0 auto;
   }
+  
   &-items {
     margin: 10px;
   }
+  
   &-bg {
-    width: 350px;
-    height:180px;
+    width: 400px;
+    height:240px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  
   &-bg:hover {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  }
+  
+  @media only screen and (max-width: 700px){
+    &-bg {
+      width: 350px;
+      height:180px;
+    }
   }
 }
 
