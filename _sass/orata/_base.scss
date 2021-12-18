@@ -16,31 +16,6 @@ span {
   font-weight: bold;
 }
 
-nav {
-  background-color: $black;
-  overflow: auto;
-  height: 55px;
-  color: $white;
-  
-  &-container {
-    margin: 1rem auto;
-    position: relative;
-    text-align: center;
-  }
-
-  &-title {
-    font-size: 30px;
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem;
-
-    &:hover,
-    &:focus {
-      opacity: .6;
-    }
-  }
-}
-
 svg{
   fill: currentColor;
   color: $white;
