@@ -1,38 +1,35 @@
 .posts {
-  &-item {
-    border-bottom: 1px solid $black;
-    color: $black;
-    display: block;
-    padding: 2rem 0;
-
-    &:hover .posts-line,
-    &:focus .posts-line {
-      width: 5rem;
-    }
-
-    &:last-child {
-      border: 0;
-    }
-  }
-
-  &-time {
-    color: $primary;
+  padding: 0 0 40px 0;
+  
+  &-title{
+    text-align: center;
     font-family: $fira;
-    letter-spacing: .5px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px 0 20px 0;
+  }
+  
+  &-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-right: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: auto;
+    max-width: 1200px;
   }
 
-  &-title {
-    color: $black;
-    display: block;
-    font-family: $fira;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: .5rem 0;
-  }
-
-  &-line {
-    border-top: .2rem solid $black;
-    display: block;
-    width: 2rem;
+  &-items {
+    box-sizing: border-box;
+    background-color: #828282;
+    flex: auto;
+    height: 260px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    min-width: 350px;
   }
 }
