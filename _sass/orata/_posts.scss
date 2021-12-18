@@ -1,5 +1,5 @@
 .posts {
-  padding: 0 0 40px 0;
+  padding: 20px 0 20px 0;
   
   &-title{
     text-align: center;
@@ -14,22 +14,19 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-right: 15px;
-    padding-top: 15px;
     box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
     margin: auto;
-    max-width: 1200px;
+    padding: 15px;
   }
 
   &-items {
     box-sizing: border-box;
     background-color: #828282;
     flex: auto;
-    height: 240px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    min-width: 350px;
+    height: 300px;
+    min-width: 400px;
+    margin: 5px;
   }
 }
