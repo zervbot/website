@@ -9,6 +9,8 @@ author:
   name:             "Harvey Wu (zervwave)"
   email:            "harveywu@outlook.it"
 
+maxPost:            7
+
 permalink:          pretty
 
 # Social Link
@@ -50,6 +52,11 @@ classify:
   - id: "3"
     name: "Robot"
     url: /robot
+    bg: "classify-image.png"
+    
+  - id: "4"
+    name: "Other"
+    url: /other
     bg: "classify-image.png"
 
 plugins:
